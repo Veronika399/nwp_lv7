@@ -17,21 +17,21 @@ const props = defineProps({
         <div class="flex justify-between">
             <div class="flex flex-col">
                 <div>
-                    <span>Name:&nbsp;</span> {{ name }}
+                    <span>Ime:&nbsp;</span> {{ name }}
                 </div>
                 <div>
-                    <span>Price:&nbsp;</span> {{ price }}
+                    <span>Cijena:&nbsp;</span> {{ price }}
                 </div>
-                <p><span>Tasks done:&nbsp;</span> {{ tasks_done }}</p>
-                <p><span>Project members:&nbsp;</span> {{ members }}</p>
-                <p><span>Description:&nbsp;</span> {{ description }}</p>
+                <p><span>Zadatak odraden:&nbsp;</span> {{ tasks_done }}</p>
+                <p><span>Clanovi projekta:&nbsp;</span> {{ members }}</p>
+                <p><span>Opis:&nbsp;</span> {{ description }}</p>
             </div>
             <div class="flex flex-col flex-none min-w-fit w-2/12 px-2">
                 <div>
-                    <span>Created at:&nbsp;</span> {{ dateToString(created_at) }}
+                    <span>Kreirano:&nbsp;</span> {{ dateToString(created_at) }}
                 </div>
                 <div>
-                    <span>Updated at:&nbsp;</span> {{ dateToString(updated_at) }}
+                    <span>Azurirano:&nbsp;</span> {{ dateToString(updated_at) }}
                 </div>
                 <div class="flex justify-between mt-2">
                     <TheButton type="button" @click="redirect()"> Edit</TheButton>

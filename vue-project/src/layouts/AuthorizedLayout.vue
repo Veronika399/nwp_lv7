@@ -6,10 +6,10 @@ import { RouterLink } from "vue-router";
     <div>
         <header>
             <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/create">Create</RouterLink>
-                <RouterLink to="/projects">Projects</RouterLink>
-                <RouterLink to="/archive">Archive</RouterLink>
+                <RouterLink to="/">Pocetna</RouterLink>
+                <RouterLink to="/create">Kreirati</RouterLink>
+                <RouterLink to="/projects">Projekti</RouterLink>
+                <RouterLink to="/archive">Arhiva</RouterLink>
             </nav>
         </header>  
     </div>
